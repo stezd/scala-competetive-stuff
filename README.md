@@ -6,7 +6,7 @@ Semua soal yang dikerjakan dalam repo ini berasal dari soal berasal dari [Advent
 2. Baca [source files](src/main/scala)
 3. Infer pake otak sendiri
 
-### LICENSE
+## LICENSE
 
 [LICENSE](LICENSE)
 
