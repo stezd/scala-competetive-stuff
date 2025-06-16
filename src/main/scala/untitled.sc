@@ -23,3 +23,6 @@ def withinThreeDelta(ls: List[Int]): Boolean = ls match {
 
 isIncreasing(testList)
 isDecreasing(testList2)
+
+List(1,2,3,4).map(x => List(x*2, x*3)) // List(List(2, 3), List(4, 6), List(6, 9), List(8, 12))
+List(1,2,3,4).flatMap(x => List(x*2, x*3)) // List(2, 3, 4, 6, 6, 9, 8, 12)
