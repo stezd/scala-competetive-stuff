@@ -33,12 +33,19 @@ object Santa {
     fetchTheDamnSource()
     println("Jawaban Soal Santa Part 1: ")
     print(getListDelta.sum)
+    println()
   }
 
   private def Santa2(): Unit = {
-    
+    val listKiriDistinct = listLeft.distinct.sorted.toList
+    val listKananSorted = listRight.sorted.toList
+
+    val listKananMap = listKananSorted.groupBy(identity).view.mapValues(_.size).toMap
+    val mult = listKiriDistinct.map(x => x * listKananMap.getOrElse(x,0))
+    print(mult.sum)
   }
   def main(args: Array[String]): Unit = {
     Santa1()
+    Santa2()
   }
 }

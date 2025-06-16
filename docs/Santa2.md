@@ -36,3 +36,4 @@ Untuk daftar contoh ini, berikut adalah proses mencari skor kesamaan:
 Jadi, untuk daftar contoh ini, skor kesamaan di akhir proses adalah 31 (9 + 4 + 0 + 0 + 9 + 9).
 ### Solusi Lengkap
 [Santa.scala](../src/main/scala/Santa.scala)
+Jawaban:`21607792`
