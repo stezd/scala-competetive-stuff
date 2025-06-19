@@ -53,6 +53,7 @@ object Day2 {
       val res = removeOneRecursive(ls).map(x => indicatorOfSafety(x)).fold(false)(_ || _)
       (ls, res)
     }
+
   def main(args: Array[String]): Unit = {
     val damnListList = absorbFile()
     val dangerMap = damnListList.map(x => indicatorOfSafety(x)).groupBy(identity)
